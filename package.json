@@ -1,0 +1,16 @@
+{
+  "name": "waffleframework",
+  "version": "1.0.0",
+  "description": "Waffle framework",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -r esm server.js",
+    "start": "nodemon -r esm server.js"
+  },
+  "author": "KhizTech",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "nodemon": "^3.0.2"
+  }
+}
